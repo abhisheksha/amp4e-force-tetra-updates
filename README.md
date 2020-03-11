@@ -4,3 +4,4 @@ The TETRAForce.py python script forces an AMP for Endpoint connector to reactive
 It works by stopping the AMP service, changing certain parameters in the local.xml, and forcing the update process to kick start earlier.
 The usage of this script requires the following:
 * Python - and the following modules must be made available - os, re, datetime, subprocess, and time.
+* The script has to be run with Administrator privileges.
